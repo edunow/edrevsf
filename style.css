@@ -25,9 +25,11 @@ body {
     font-weight: 300;
     text-rendering: optimizeLegibility;
 }
+
+
 h1 {
     font-size: 3em;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: .25em;
     line-height: 1em;
     color: #f26531;
@@ -140,7 +142,7 @@ body.full-width-layout div#footer {
     width: 1120px;
 }
 .menu a {
-    font-size: 34px;
+    font-size: 29px;
     font-weight: 800;
     text-shadow: none;
     border-left: 0;
@@ -152,7 +154,7 @@ body.full-width-layout div#footer {
     text-decoration:none;
 
 }.menu .current_page_item a, .menu .current-menu-item a {
-    background-color: #F26531;
+    background-color: #00BCE4;
     background-image: none;
     text-decoration:none
 }
@@ -164,7 +166,7 @@ body.full-width-layout div#footer {
 }
 .site-name a, a {
     color: #09a9cb;
-    /*font-weight: 400;*/
+    font-weight: inherit;
     text-decoration: underline;
 }
 a:hover {
@@ -310,8 +312,12 @@ p.chc-red, h3.chc-red {
     color: #09a9cb;
 }
 .chc-gray{
-    color: #958d7a;
+    color: #333;
 }
+.dark-gray {
+    color: #333;
+}
+
 
 .light-font, h2.light-font {
     font-weight: 300;
@@ -508,6 +514,13 @@ div#home_widget_1 {
     text-decoration: underline;
 }
 
+.graylinebox {
+    margin: 25px 0;
+    clear: both;
+    padding: 20px;
+    border: 2px solid #ccc2b6;
+}
+
 h1.chc-blue.tagline {
     font-variant: all-small-caps;
     font-size: 65px;
@@ -554,7 +567,14 @@ a.small-button:hover {
 }
 
 a.small-button {
-    font-size: .75em;
+clear: both;    
+font-size: .75em;
+    width: 90%;
+    display: block;
+    height: auto;
+    font-size: 1.2em;
+    padding: 10px;
+}
 }
 
 .fund-a-need-video {
@@ -634,6 +654,11 @@ table#fundaneed {
 }
 }
 @media screen and (max-width: 768px) {
+
+.col-60, .col-140, .col-220, .col-300, .col-380, .col-460, .col-540, .col-620, .col-700, .col-780, .col-860 {
+    width: 100%;
+}
+
 .col50 {
     width: 100%;
 }
@@ -665,7 +690,7 @@ table#fundaneed {
 .barley {
     display: none;
 }
-img.alignright, img.alignleft {
+img.alignright, img.alignleft, div.alignright, div.alignleft {
     max-width: 100%;
     display: block;
     margin: 0 auto;
