@@ -14,6 +14,7 @@ Updated: 2017-09-27 05:48:31
     background-color: #f26531;
     background-image: none;
 }
+
 body {
     font-size: 1.3em;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
@@ -78,6 +79,7 @@ caption {
 ul, ol {
     margin-bottom: .5em;
 }
+
 #container {
     margin-right: 0;
     margin-left: 0;
@@ -93,6 +95,214 @@ ul, ol {
     margin-bottom: 20px;
     max-width: 1120px;
 }
+
+body.home #wrapper {
+    margin: 0;
+    max-width: 100%;
+	padding:0;
+}
+
+.home .chc-blue-band {
+    background-color: #00bce4;
+    border-top: 10px solid #0093D0;
+	padding: 50px 0 10px 0;
+	min-height: 340px
+}
+
+.chc-darkblue-band {
+    background-color: #0093D0;
+    border-top: 10px solid #0093D0;
+	padding: 10px 0;
+	min-height: 340px;
+}
+
+.chc-red-band {
+    background-color: #f06531;
+	padding: 10px 0;
+	min-height: 375px;
+	border-top: solid 10px #D9531E;
+}
+
+.chc-white-band {
+    background-color: #fff;
+	padding: 10px 0;
+	min-height: 340px;
+}
+
+.home .chc-slider-band {
+    background-color: #fff;
+	padding: 0;
+	max-height:100%;
+}
+
+
+.home .register {
+    text-align: center;
+    color: white;
+    font-size: 21px;
+	margin: 0 auto;
+	font-weight: 400;
+}
+
+.home .register p {
+    margin-bottom: 30px;
+}
+
+.home .register h2{
+	color:white;
+	font-size: 48px;
+	font-weight:800;
+}
+
+.home .attendee {
+    margin: 0 auto;
+    color: white;
+    font-size: 27px;
+	font-weight: 400;
+}
+
+.home .attendee h4 {
+    font-weight: 800;
+    color: white;
+	padding: 30px 0;
+	font-size: 28px;
+}
+
+.home .attendee .alignleft{
+	margin:0px 100px 0px 0;
+}
+
+.attendee .maplink a {
+    font-size: 18px;
+    color: white;
+}
+
+.home .participants {
+    margin: 0 auto;
+}
+
+.home .participants h3 {
+    max-width: 354px;
+    background-color: #00bce4;
+    border-bottom: solid #0093D0 7px;
+    color: white;
+    text-align: center;
+	font-weight: 800;
+	font-size: 36px;
+	padding: 10px 0;
+}
+
+.home .participants h3 a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.home .participants p{
+	text-align:center;
+	font-size:24px;
+}
+
+.home .participants .aligncenter{
+	margin: -12px 0 0 0;
+}
+
+.home .participants .col-300 {
+    max-width: 345px;
+}
+
+.home .speakers {
+    text-align: center;
+    color: white;
+    font-size: 21px;
+}
+
+.chc-blue-button-250x50 {
+    width: 250px;
+    margin: 20px auto;
+}
+
+.chc-blue-button-250x50 a {
+	background-color: #00bce4;
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 800;
+	padding: 11px 0;
+	text-transform: uppercase;
+}
+
+.chc-blue-button-250x50 a:hover{
+	background-color: #f06531;
+	color: white;
+	text-decoration: none;
+}
+
+.chc-red-button-darkblue-367x79, .chc-red-button-367x79 {
+    width: 370px;
+    margin: 20px auto;
+}
+
+.chc-red-button-367x79 a, .chc-red-button-darkblue-367x79 a, .top-widget .chc-red-button-200x47 a {
+	background-color: #f06531;
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 800;
+	padding: 25px 0;
+	text-transform: uppercase;
+    border-right: solid 4px #D9531E;
+    border-bottom: solid 4px #D9531E;
+}
+
+.top-widget .chc-red-button-200x47 a{
+	font-size: 21px;	
+}
+
+.chc-red-button-367x79 a:hover, .top-widget .chc-red-button-200x47 a:hover {
+	background-color: #00bce4;
+	color: white;
+	text-decoration: none;
+	border-right: solid 4px #00bce4;
+    border-bottom: solid 4px #00bce4;
+}
+
+.chc-red-button-darkblue-367x79 a:hover{
+	background-color: #0093D0;
+	color: white;
+	text-decoration: none;	
+    border-right: solid 4px #0093D0;
+    border-bottom: solid 4px #0093D0;
+}
+
+.top-widget .chc-red-button-200x47 {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.top-widget .chc-red-button-200x47 a {
+    padding: 8px;
+}
+
+.home .speakers h3 {
+    font-size: 48px;
+    color: white;
+    font-weight: 800;
+}
+
+.home .speakers p {
+    font-size: 18px;
+	font-weight: 400;
+}
+
+.home #content-full {
+    margin-top: 0;
+}
+
 #header {
     margin-right: auto;
     margin-left: auto;
@@ -142,11 +352,11 @@ body.full-width-layout div#footer {
     width: 1120px;
 }
 .menu a {
-    font-size: 21px;
+    font-size: 16px;
     font-weight: 800;
     text-shadow: none;
     border-left: 0;
-    padding:0.3em 0.5em 0.5em 0.5em;
+    padding: 0.3em 0.5em 0.5em;
 }
 .menu a:hover {
     background: #00BCE4;
@@ -220,9 +430,10 @@ div#colophon-widget, #colophon-widget .widget-wrapper {
     background-position: center;
     padding: 12px;
 }
+
 #colophon-widget .widget-wrapper a:hover {
     background-color: #00bce4;
-    background-image: none
+    background-image: none;
     text-decoration: none;
 }
 p.ticketsonsale {
@@ -236,7 +447,7 @@ p.over21please {
     font-size: 1.15em;
     border: 0;
     background-color: #fff;
-    background-image: none
+    background-image: none;
     line-height: 1.3em;
     font-style: italic;
     min-height: 70px;
@@ -560,6 +771,27 @@ a.small-button:hover {
     background-color: #f26531;
 }
 
+.BBFormFieldLabel, .BBFormTableHeaderCell.BBFormColPriceAmt, #BBPanelPrices .BBFormTableRowCell, BBFormTableHeaderCell BBFormColTotal, .BBFormTableHeaderCell .BBFormColTotal, .BBFormTableFooterCell .BBFormTableFooterLabel, .BBFormTableFooterLabel {
+    text-align: left !important;
+}
+
+#bbox-root .BBFormPricingTable {
+    max-width: 768px !important;
+    /*width: 768px;*/
+}
+
+#mongo-form * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /*width: 1120px;*/
+}
+
+.BBFormFieldLabel{
+    max-width: 768px !important;
+    /*width: 768px !important;*/
+}
+
 @media screen and (max-width: 960px) {
 
 .sponsorship-col1,.sponsorship-col2 {
@@ -591,7 +823,7 @@ table#fundaneed {
     clear: both !important;
     padding: .8em;
 }
-}
+
 @media screen and (max-width: 900px) {
 .js .main-nav .menu {
     width: 100%;
@@ -601,7 +833,7 @@ table#fundaneed {
 }
 .js .main-nav #responsive_current_menu_item {
     display: block;
-    color: #f26531;
+    color: #F26531;
     font-weight: 700;
     cursor: pointer;
     padding: 5px 40px 5px 10px;
@@ -628,7 +860,7 @@ table#fundaneed {
     padding: 0 15px;
 }
 .js .main-nav {
-    background-color: #f26531;
+    background-color: #F26531;
     background-image: none;
     clear: both;
     position: relative;
@@ -658,7 +890,23 @@ table#fundaneed {
 .col-60, .col-140, .col-220, .col-300, .col-380, .col-460, .col-540, .col-620, .col-700, .col-780, .col-860 {
     width: 100%;
 }
+	
+.home .attendee, .attendee img {
+    text-align: center;
+}
+.home .attendee .alignleft {
+    margin: 20px auto;
+    text-align: center;
+}
 
+.participants .col-300 {
+    margin: 0 auto;
+}
+
+.participants .col-300.grid.fit {
+    margin: 0 auto !important;
+}
+	
 .col50 {
     width: 100%;
 }
@@ -721,12 +969,11 @@ body.full-width-layout div#footer {
 @media screen and (max-width: 650px) {
 .js .main-nav .menu {
     top: 46px;
-
-body.full-width-layout div#footer {
+	}
+body .full-width-layout div#footer {
     width: 100%;
     max-width: 100%;
     padding: 0;
 }
 
-}
 }
