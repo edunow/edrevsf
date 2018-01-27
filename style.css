@@ -14,7 +14,6 @@ Updated: 2017-09-27 05:48:31
     background-color: #f26531;
     background-image: none;
 }
-
 body {
     font-size: 1.3em;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
@@ -79,7 +78,6 @@ caption {
 ul, ol {
     margin-bottom: .5em;
 }
-
 #container {
     margin-right: 0;
     margin-left: 0;
@@ -280,7 +278,7 @@ body.home #wrapper {
 }
 
 .top-widget .chc-red-button-200x47 {
-    max-width: 200px;
+    max-width: 400px;
     margin: 0 auto;
 }
 
@@ -352,11 +350,11 @@ body.full-width-layout div#footer {
     width: 1120px;
 }
 .menu a {
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 800;
     text-shadow: none;
     border-left: 0;
-    padding: 0.3em 0.5em 0.5em;
+    padding:0.3em 0.5em 0.5em 0.5em;
 }
 .menu a:hover {
     background: #00BCE4;
@@ -430,7 +428,6 @@ div#colophon-widget, #colophon-widget .widget-wrapper {
     background-position: center;
     padding: 12px;
 }
-
 #colophon-widget .widget-wrapper a:hover {
     background-color: #00bce4;
     background-image: none;
@@ -771,25 +768,9 @@ a.small-button:hover {
     background-color: #f26531;
 }
 
-.BBFormFieldLabel, .BBFormTableHeaderCell.BBFormColPriceAmt, #BBPanelPrices .BBFormTableRowCell, BBFormTableHeaderCell BBFormColTotal, .BBFormTableHeaderCell .BBFormColTotal, .BBFormTableFooterCell .BBFormTableFooterLabel, .BBFormTableFooterLabel {
-    text-align: left !important;
-}
-
-#bbox-root .BBFormPricingTable {
-    max-width: 768px !important;
-    /*width: 768px;*/
-}
-
-#mongo-form * {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    /*width: 1120px;*/
-}
-
-.BBFormFieldLabel{
-    max-width: 768px !important;
-    /*width: 768px !important;*/
+img.img-about-expectation {
+    float: left;
+    margin: 20px 50px 30px 0;
 }
 
 @media screen and (max-width: 960px) {
@@ -807,7 +788,7 @@ font-size: .75em;
     font-size: 1.2em;
     padding: 10px;
 }
-}
+
 
 .fund-a-need-video {
     margin-top: inherit;
@@ -823,9 +804,13 @@ table#fundaneed {
     clear: both !important;
     padding: .8em;
 }
-
+}
 @media screen and (max-width: 900px) {
-.js .main-nav .menu {
+img.img-about-expectation {
+    float: none;
+}
+	
+	.js .main-nav .menu {
     width: 100%;
     display: none;
     position: absolute;
@@ -833,7 +818,7 @@ table#fundaneed {
 }
 .js .main-nav #responsive_current_menu_item {
     display: block;
-    color: #F26531;
+    color: #f26531;
     font-weight: 700;
     cursor: pointer;
     padding: 5px 40px 5px 10px;
@@ -860,7 +845,7 @@ table#fundaneed {
     padding: 0 15px;
 }
 .js .main-nav {
-    background-color: #F26531;
+    background-color: #f26531;
     background-image: none;
     clear: both;
     position: relative;
@@ -890,7 +875,7 @@ table#fundaneed {
 .col-60, .col-140, .col-220, .col-300, .col-380, .col-460, .col-540, .col-620, .col-700, .col-780, .col-860 {
     width: 100%;
 }
-	
+
 .home .attendee, .attendee img {
     text-align: center;
 }
@@ -906,7 +891,7 @@ table#fundaneed {
 .participants .col-300.grid.fit {
     margin: 0 auto !important;
 }
-	
+
 .col50 {
     width: 100%;
 }
@@ -969,11 +954,12 @@ body.full-width-layout div#footer {
 @media screen and (max-width: 650px) {
 .js .main-nav .menu {
     top: 46px;
-	}
-body .full-width-layout div#footer {
+}
+body.full-width-layout div#footer {
     width: 100%;
     max-width: 100%;
     padding: 0;
 }
 
 }
+
